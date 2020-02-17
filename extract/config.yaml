@@ -1,0 +1,13 @@
+news_sites:
+  xataka:
+    url: https://www.xataka.com/
+    queries:
+      homepage_article_links: '.abstract-title a'
+      article_body: '.article-content p'
+      article_title: '.article-header h1 span'
+  enter.co:
+    url: https://www.enter.co/
+    queries:
+      homepage_article_links: '.info .title a'
+      article_body: '.post-content p'
+      article_title: '.complete-article h1'
